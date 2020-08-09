@@ -39,17 +39,15 @@ export default function Services() {
                                     }}
                                     tabs={[
                                         {
-                                            tabButton: "High School Students",
+                                            tabButton: "College Students",
                                             tabIcon: ArrowForwardIcon,
                                             tabContent: (
                                                 <span>
-                                                   We believe career exploration is a lifelong process - it can begin as a visualization process as early as 
-                                                   for 7th grade students to shortlisting of career streams for 11th/12th graders. 
-                                                   Career aptitude tests and guidance are integrated at each of the above stages so that 
-                                                   high school students can embark on the college admission process with full clarity of what lies ahead. 
+                                                   Career Guidance activities include assisting students in deciding whether to go in for further studies or try to gain work experience. For Higher Education aspirants, the selection of courses needs to be aligned with their ultimate career goal. For those choosing to enter the workforce, we help in shortlisting from a range of options – jobs, internships, industry projects, startups. Additional courses are suggested to build the interdisciplinary skills of students, on a case-by-case basis.
                                                 </span>
                                             )
                                         },
+                                       
                                       
 
 

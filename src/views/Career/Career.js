@@ -27,7 +27,7 @@ import logo from "assets/img/favicon.png";
 import CareerInfo from "./Sections/CareerInfo.js";
 const useStyles = makeStyles(styles);
 
-export default function Components(props) {
+export default function Career(props) {
   const classes = useStyles();
   const { ...rest } = props;
 
@@ -57,7 +57,7 @@ export default function Components(props) {
                 <h1 className={classes.title} style={{fontFamily: 'serif',  fontWeight: "500",display:"inline"}}> VerifyUni </h1>
                 
                 <h3 className={classes.subtitle} style={{ fontSize:"30px", fontWeight: "400"}}> 
-                College and Career Consulting</h3>
+                Career Guidance</h3>
               </div>
             </GridItem>
           </GridContainer>

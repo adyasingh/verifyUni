@@ -38,15 +38,13 @@ export default function Services() {
                                         contentGrid: { xs: 12, sm: 6, md: 8 }
                                     }}
                                     tabs={[
+                                      
                                         {
-                                            tabButton: "High School Students",
+                                            tabButton: "Professionals",
                                             tabIcon: ArrowForwardIcon,
                                             tabContent: (
                                                 <span>
-                                                   We believe career exploration is a lifelong process - it can begin as a visualization process as early as 
-                                                   for 7th grade students to shortlisting of career streams for 11th/12th graders. 
-                                                   Career aptitude tests and guidance are integrated at each of the above stages so that 
-                                                   high school students can embark on the college admission process with full clarity of what lies ahead. 
+                                                    We also structure customized one-to-one sessions with working professionals who wish to change their career paths.
                                                 </span>
                                             )
                                         },

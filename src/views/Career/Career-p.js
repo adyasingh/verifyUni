@@ -17,24 +17,20 @@ import Parallax from "components/Parallax/Parallax.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 
 import ContactUs from "./Sections/ContactUs.js";
-import EmailUs from "./Sections/EmailUs.js";
-import Quote from "./Sections/Quote.js";
-
-import Difference from "./Sections/Difference.js";
-import Services from "./Sections/Services.js";
+import Services from "./Sections/Services-p.js";
 import ServicesMob from "./Sections/ServicesMob.js";
 
-import TeamSection from "./Sections/TeamSection.js";
-import AboutUs from "./Sections/AboutUs.js";
 
 
 import styles from "assets/jss/material-kit-react/views/components.js";
 import logo from "assets/img/favicon.png";
+import CareerInfo from "./Sections/CareerInfo.js";
 const useStyles = makeStyles(styles);
 
-export default function Components(props) {
+export default function Career(props) {
   const classes = useStyles();
   const { ...rest } = props;
+
   var mob = false; 
   if (window.innerWidth<960)
     mob= true;
@@ -61,25 +57,16 @@ export default function Components(props) {
                 <h1 className={classes.title} style={{fontFamily: 'serif',  fontWeight: "500",display:"inline"}}> VerifyUni </h1>
                 
                 <h3 className={classes.subtitle} style={{ fontSize:"30px", fontWeight: "400"}}> 
-                College and Career Consulting</h3>
+                Career Guidance</h3>
               </div>
             </GridItem>
           </GridContainer>
         </div>
       </Parallax>
-
       <div className={classNames(classes.main, classes.mainRaised)}>
-      <AboutUs />
-      <Quote/>
-        <TeamSection />
-        {/* {mob? <ServicesMob/> : <Services/>}
-        {/* <Services/> */}
-        {/* < Difference />
-        <Testemonials /> */} 
-        
-   
-        <ContactUs/>
-    
+     <CareerInfo/>
+    {mob? <ServicesMob/> : <Services/>}
+     <ContactUs/>
       </div>
    
     </div>

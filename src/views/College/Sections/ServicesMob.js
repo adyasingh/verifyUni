@@ -6,7 +6,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
 
-import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+import ArrowDownward from '@material-ui/icons/ArrowDownward';
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -19,7 +19,6 @@ const useStyles = makeStyles(styles);
 
 export default function Services() {
     const classes = useStyles();
-
     return (
 
         <div>
@@ -33,20 +32,29 @@ export default function Services() {
                             <GridItem xs={12} sm={12} md={12} lg={9}>
                                 <NavPills
                                     color="rose"
-                                    horizontal={{
+                                    vertical={{
                                         tabsGrid: { xs: 12, sm: 7, md: 4},
                                         contentGrid: { xs: 12, sm: 6, md: 8 }
                                     }}
                                     tabs={[
                                         {
-                                            tabButton: "High School Students",
-                                            tabIcon: ArrowForwardIcon,
+                                            tabButton: "Students",
+                                            tabIcon: ArrowDownward,
                                             tabContent: (
                                                 <span>
                                                    We believe career exploration is a lifelong process - it can begin as a visualization process as early as 
                                                    for 7th grade students to shortlisting of career streams for 11th/12th graders. 
                                                    Career aptitude tests and guidance are integrated at each of the above stages so that 
-                                                   high school students can embark on the college admission process with full clarity of what lies ahead. 
+                                                   students can embark on the college admission process with full clarity of what lies ahead. 
+                                                </span>
+                                            )
+                                        },
+                                        {
+                                            tabButton: "Professionals",
+                                            tabIcon: ArrowDownward,
+                                            tabContent: (
+                                                <span>
+                                                    We also structure customized one-to-one sessions with working professionals who wish to change their career paths.
                                                 </span>
                                             )
                                         },
