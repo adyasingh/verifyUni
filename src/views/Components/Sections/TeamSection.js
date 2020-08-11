@@ -9,10 +9,8 @@ import { makeStyles } from "@material-ui/core/styles";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import Button from "components/CustomButtons/Button.js";
 import Card from "components/Card/Card.js";
 import CardBody from "components/Card/CardBody.js";
-import CardFooter from "components/Card/CardFooter.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 
@@ -47,7 +45,7 @@ export default function TeamSection() {
                 <small className={classes.smallTitle}> Certified Counsellor</small>
               </h4>
               <CardBody>
-                <p className={classes.description}>
+                <p className={classes.description} style={{fontWeight:"800"}}>
                 I grew up in Malaysia and then moved to India, graduating with a degree in Architecture from the Indian 
                 Institute Of Technology. Later, I lived in Singapore and India, training as an educator in the Montessori 
                 and Waldorf systems, before relocating to the US where I completed my certification in College Admissions 
@@ -73,7 +71,7 @@ export default function TeamSection() {
                 <small className={classes.smallTitle}> Certified Counsellor</small>
               </h4>
               <CardBody>
-                <p className={classes.description}>
+                <p className={classes.description} style={{fontWeight:"800"}}>
                 Prior to completing the UC Berkeley College Admissions Advising program, I’ve had a variety of 
                 educational and work related experiences that serve me in my everyday work as a college counselor. 
                 After graduating from UC Davis (Summa Cum Laude, Psychology and Rhetoric and Communications), 
@@ -104,7 +102,7 @@ export default function TeamSection() {
                 <small className={classes.smallTitle}> Certified Counsellor</small>
               </h4>
               <CardBody>
-                <p className={classes.description}>
+                <p className={classes.description} style={{fontWeight:"800"}}>
                 In addition to completing the UC Berkeley College Admissions Advising Program. I received my undergraduate 
                 degrees from Pitzer College, (one of the Claremont Colleges). I also hold an MBA in International 
                 Management from the Thunderbird School of Global Management (now part of ASU). I spent 20 years working in 
@@ -137,7 +135,7 @@ export default function TeamSection() {
                 <small className={classes.smallTitle}>Advisor/Mentor </small>
               </h4>
               <CardBody>
-                <p className={classes.description}>
+                <p className={classes.description} style={{fontWeight:"800"}}>
                 I have over 25 years of experience after a Postgraduate Degree in Management from Delhi University, India. 
                 I was awarded the Chevening Scholarship to attend Bankers’ Program at London School of Economics and 
                 Political Science, UK. I was also awarded a Scholarship by Swedish Institute to attend the Management 

@@ -1,6 +1,6 @@
 import React from "react";
 // plugin that creates slider
-import Slider from "nouislider";
+// import Slider from "nouislider";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 

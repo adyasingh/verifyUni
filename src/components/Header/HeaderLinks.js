@@ -66,9 +66,16 @@ export default function HeaderLinks(props) {
           }}
           dropdownList={[
           
-             <Link to="/career" className={classes.dropdownLink}>
-             Career Guidance
-           </Link>, 
+            
+            <Link to="/career" className={classes.dropdownLink}>
+            For high school students
+          </Link>, 
+           <Link to="/career-c" className={classes.dropdownLink}>
+           For college students
+         </Link>, 
+          <Link to="/career-p" className={classes.dropdownLink}>
+          For professionals
+        </Link>, 
           
           ]}
         />

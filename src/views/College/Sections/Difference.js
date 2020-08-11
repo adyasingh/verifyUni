@@ -35,8 +35,9 @@ export default function Difference() {
 
                         
                     </div>
-                    <GridContainer>
-          <GridItem xs={12} sm={12} md={4}>
+          <GridContainer>
+           
+          <GridItem xs={12} sm={12} md={4} >
             <InfoArea
               title="Worldwide Experience"
               description="Our team’s past and ongoing collective experiences across diverse global backgrounds enables us to provide college counselling and career guidance to our clients at various stages of their academic and professional lives."
@@ -46,7 +47,7 @@ export default function Difference() {
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
+            <InfoArea 
               title="Certified College Counsellors"
               description="Our consultants received their College Admissions training from the preeminent UC Berkeley College Admissions Planning program.  All are certified College Admissions Planners."
               icon={VerifiedUser}
