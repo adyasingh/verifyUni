@@ -10,7 +10,9 @@ const basicsStyle = {
     ...title,
     marginTop: "30px",
     minHeight: "32px",
-    textDecoration: "none"
+    textDecoration: "none", 
+    fontColor:"#000000", 
+    fontFamily:"sans-serif"
   },
   space50: {
     height: "50px",

@@ -193,7 +193,7 @@ export default function Services() {
 
             <div style={{marginLeft:"12vw"}}>
                 <h4 className={classes.subtitle} style={{fontWeight:"bold"}}>Hourly Package</h4>
-                <span style={{ fontSize: "16px",fontWeight: "bold", fontFamily:"Roboto Slab"}}>
+                <span style={{ fontSize: "16px",fontWeight: "bold", fontFamily:"sans-serif"}}>
                     <li>Basic guidance and information on colleges and admission processes as stated above</li>
                     <br />
                     <li>Help with personal statements/ essays</li>

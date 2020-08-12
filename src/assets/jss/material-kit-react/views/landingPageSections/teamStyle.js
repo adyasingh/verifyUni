@@ -13,7 +13,8 @@ const teamStyle = {
     minHeight: "32px",
     textDecoration: "none", 
     textAlign: "left", 
-    marginLeft:"9vw"
+    marginLeft:"9vw",
+    fontFamily:"sans-serif"
   },
   ...imagesStyle,
   itemGrid: {
@@ -22,10 +23,12 @@ const teamStyle = {
   },
   cardTitle,
   smallTitle: {
-    color: "#6c757d"
+    color: "#000000",
+    fontFamily:"sans-serif"
   },
   description: {
-    color: "#999"
+    color: "#000000",
+    fontFamily:"sans-serif"
   },
   justifyCenter: {
     justifyContent: "center !important"
@@ -39,7 +42,7 @@ const teamStyle = {
     height: "100%",
     lineHeight: "41px",
     fontSize: "20px",
-    color: "#999"
+    color: "#000000"
   },
   margin5: {
     margin: "5px"
