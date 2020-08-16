@@ -66,6 +66,22 @@ export default function ContactUs() {
                   }}
                   style={{marginBottom: "20px", marginRight: "20px", fontFamily: "sans-serif", color: "#000000", fontWeight: "600" }}
                 />
+                 <TextField
+                  
+                  id="phone2"
+                  variant="outlined"
+                  defaultValue="+1 (925) 395 6217"
+                  InputProps={{
+                    readOnly: true,
+                    startAdornment: (
+                      <InputAdornment position="start">
+                        <PhoneIcon />
+                      </InputAdornment>
+                    ),
+
+                  }}
+                  style={{marginBottom: "20px", marginRight: "20px", fontFamily: "sans-serif", color: "#000000", fontWeight: "600" }}
+                />
                
                  <TextField
                   
