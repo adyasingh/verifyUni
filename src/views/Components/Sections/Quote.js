@@ -21,9 +21,23 @@ export default function Quote() {
                             {/* <h2 className={classes.title}>Is there a secret to Admission?</h2> */}
                             <div className={classes.title}>
                                 <h4 className={classes.title} style={{fontStyle:"italic"}}>
+                                “Education is the most powerful weapon you can use to change the world”
+                                    <br></br>
+                                    ― Nelson Mandela
+                                </h4>
+                            </div>
+                            <div className={classes.title}>
+                                <h4 className={classes.title} style={{fontStyle:"italic"}}>
                                     "The big secret in college admission is that there is no big secret"
                                     <br></br>
-                                        - Fred Hargadon, former dean of admission, Swarthmore, Stanford and Princeton
+                                    ― Fred Hargadon, former dean of admission, Swarthmore, Stanford and Princeton
+                                </h4>
+                            </div>
+                            <div className={classes.title}>
+                                <h4 className={classes.title} style={{fontStyle:"italic"}}>
+                                “Choose a job you love, and you will never have to work a day in your life.”
+                                    <br></br>
+                                    ― Confucius
                                 </h4>
                             </div>
                         </div>
